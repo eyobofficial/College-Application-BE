@@ -38,12 +38,14 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     'authtools',
     'rest_framework',
+    'django_countries',
 ]
 
 # Project apps
 INSTALLED_APPS += [
     'accounts.apps.AccountsConfig',
     'shared.apps.SharedConfig',
+    'programs.apps.ProgramsConfig',
 ]
 
 MIDDLEWARE = [
